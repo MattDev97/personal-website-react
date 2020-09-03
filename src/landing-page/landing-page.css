@@ -1,0 +1,25 @@
+@media (min-width: 768px) { 
+	#landing--container h1 {
+		width: 25%;
+	}
+}
+
+#landing--container {
+	display: flex;
+	height: 100vh;
+	background-image: url("../assets/images/evening-55067.png");
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+#landing--container h1 {
+	background-color: var(--bg-1-color);
+	/* width: 25%; */
+
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5rem!important;
+}
