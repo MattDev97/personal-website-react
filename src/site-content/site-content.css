@@ -1,0 +1,8 @@
+#site--content {
+	background-color: var(--bg-4-color);
+}
+
+#site--content #site--content--header{
+	font-size: 40px;
+	text-align: center;
+}

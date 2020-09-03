@@ -1,15 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import './landing-page/landing-page'
 import LandingPage from './landing-page/landing-page';
+import SiteContent from './site-content/site-content';
 
 function App() {
   return (
-    <LandingPage></LandingPage>
-    // <div className="container-fluid">
-
-    // </div>
+    <React.Fragment>
+      <LandingPage></LandingPage>
+      <div className="container-fluid">
+        <SiteContent></SiteContent>
+      </div>
+    </React.Fragment>
   );
 }
 

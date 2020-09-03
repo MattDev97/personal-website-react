@@ -1,0 +1,9 @@
+.job--thumbnail {
+	text-align: center;
+}
+
+.job--thumbnail img {
+	width: 300px;
+	height: 250px;
+	border-radius: 25px;
+}
