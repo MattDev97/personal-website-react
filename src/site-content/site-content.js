@@ -5,7 +5,7 @@ import './site-content.css';
 class SiteContent extends React.Component {
 	render() {
 		return (
-			<div id="site--content" className="row px-5">
+			<div id="site--content" className="row p-3">
 				<div className="col">
 					<h1 id="site--content--header">My Journey</h1>
 					<JobDetails></JobDetails>

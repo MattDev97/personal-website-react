@@ -1,20 +1,16 @@
 :root {
-	--text-primary-color: #003049;
-	--text-secondary-color: #828081;
-	--accent-color: #d62828;
-	--bg-1-color: #f7f7f7;
-	--bg-2-color: #f77f00;
-	--bg-3-color: #fcbf49;
-	--bg-4-color: #eae2b7;
+	--text-primary-color: #f6f4e6;
+	--text-secondary-color: #3b6978;
+	--accent-color: #fddb3a;
+	--bg-1-color: #222831;
 }
 
 h1 {
-	color: var(--text-primary-color);
-	font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem!important;
+	color: var(--accent-color);
+  	
 }
 
 p {
+	color: var(--text-primary-color);
 	font-family: 'Roboto', sans-serif;
 }
