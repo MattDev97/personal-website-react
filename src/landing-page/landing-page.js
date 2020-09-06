@@ -114,7 +114,7 @@ class LandingPage extends React.Component {
 	render() {
 		return (
 			<div id="landing--container">
-				<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+				<video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
 					<source src={LandingPageBackgroundBlur15fps} type="video/mp4" />
 				</video>
 				<div id="header-content" className="col mx-auto my-auto">

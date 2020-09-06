@@ -7,10 +7,10 @@ class JobDetails extends React.Component {
 		return (
 			<React.Fragment>
 				<div className="job-details row mx-auto pt-5">
-					<div class="job--thumbnail col-md-5">
-						<img class="mx-auto" src={AcumenLogo} alt="" />
+					<div className="job--thumbnail col-md-5">
+						<img className="mx-auto" src={AcumenLogo} alt="" />
 					</div>
-					<div class="col-md-7">
+					<div className="col-md-7">
 						<h2>Acumen Solutions</h2>
 						<h5><em>Technical Consultant I since May 2019</em></h5>
 						<hr />
