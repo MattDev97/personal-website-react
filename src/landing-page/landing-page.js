@@ -117,9 +117,9 @@ class LandingPage extends React.Component {
 				<video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
 					<source src={LandingPageBackgroundBlur15fps} type="video/mp4" />
 				</video>
-				<div id="header-content" className="col mx-auto my-auto">
-					<h1 className="mx-auto py-2">Hello World</h1>
-					<h2 className="mx-auto py-2">It's Matt!</h2>
+				<div id="header-content" className="col">
+					<h1>Hello World</h1>
+					<h2 class="mx-0">My name is Matthew Muenzberg</h2>
 				</div>
 				<div id="social-buttons">
 					<FaLinkedin onClick={goToLinkedInPage} />

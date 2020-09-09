@@ -1,0 +1,53 @@
+@media (min-width: 576px) { 
+	#skills-chart  {
+		font-size: 30px!important;
+	}
+}
+
+
+@media (min-width: 992px) { 
+	#skills-chart  {
+		max-width: 80%!important;
+		font-size: 30px!important;
+	}
+
+	.skill-container {
+		padding-right: 30%;
+	}
+}
+
+#skills-chart {
+	white-space: nowrap;
+	font-size: 6vw;
+    height: fit-content;
+    margin: 30px auto;
+    color: var(--text-secondary-color);
+    font-family: 'Raleway', sans-serif;
+	border-color: var(--bg-2-color)!important;
+}
+
+h2 {
+	margin: 15px;
+	color: var(--text-primary-color);;
+}
+
+.skill-container span{
+	-moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+
+.skill-container span:hover {
+	transform: scale(1.2);
+}
+
+.meter-bar {
+	width: 20%;
+	height: 75%;
+	background-color: var(--accent-color);
+}
+
+.border-left, .border-right {
+	border-color: var(--text-secondary-color)!important;
+}

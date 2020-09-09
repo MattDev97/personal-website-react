@@ -1,13 +1,14 @@
 :root {
 	--text-primary-color: #f6f4e6;
-	--text-secondary-color: #3b6978;
+	--text-secondary-color: #fd793c;
 	--accent-color: #fddb3a;
-	--bg-1-color: #222831;
+	--bg-1-color: #161513;
+	--bg-2-color: #49239a;
+	
 }
 
 h1 {
 	color: var(--accent-color);
-  	
 }
 
 p {
