@@ -12,7 +12,7 @@ function setupTypewriter(t) {
 		tag = "",
 		writingTag = false,
 		tagOpen = false,
-		typeSpeed = 100,
+		typeSpeed = 50,
 		tempTypeSpeed = 0;
 
 	var type = function () {
@@ -108,7 +108,7 @@ class LandingPage extends React.Component {
 		setTimeout(() => {
 			typewriter.type();
 		},
-			700)
+			800)
 	}
 
 	render() {
