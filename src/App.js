@@ -2,16 +2,32 @@ import React from 'react';
 import './App.css';
 import LandingPage from './landing-page/landing-page';
 import SiteContent from './site-content/site-content';
+import LoadingSpinner from './loading-spinner/loading-spinner';
 
-function App() {
-  return (
-    <React.Fragment>
-      <LandingPage></LandingPage>
-      <div className="container-fluid">
-        <SiteContent></SiteContent>
-      </div>
-    </React.Fragment>
-  );
+export class App extends React.Component {
+
+
+  constructor(props) {
+    super(props);
+    this.state = { isLoading: true };
+  }
+
+  componentDidMount() {
+    this.setState({ isLoading: false });
+  }
+
+  render() {
+    return (
+      <React.Fragment>
+        <LoadingSpinner isLoading={this.state.isLoading}></LoadingSpinner>
+        <LandingPage></LandingPage>
+        <div className="container-fluid">
+          <SiteContent></SiteContent>
+        </div>
+      </React.Fragment >
+    );
+  }
+
 }
 
 export default App;
