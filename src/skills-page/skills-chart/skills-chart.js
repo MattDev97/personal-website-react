@@ -92,7 +92,7 @@ class SkillsChart extends React.Component {
 					<div class="row">
 						<h2>Languages</h2>
 					</div>
-					<div className="skill-container d-flex row">
+					<div className="skill-container d-flex row pr-5">
 
 						{this.languageSkills.map(skill => (
 							<React.Fragment>
