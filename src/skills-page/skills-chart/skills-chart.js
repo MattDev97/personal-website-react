@@ -1,63 +1,13 @@
 import React from 'react';
 import './skills-chart.css';
+import SkillsJSON from '../data/skills-page.json'
 
 class SkillsChart extends React.Component {
 	constructor(props) {
 		super(props);
-
-		this.languageSkills = [
-			{
-				name: 'Javascript',
-				proficiency: 5
-			},
-			{
-				name: 'HTML',
-				proficiency: 5
-			},
-			{
-				name: 'CSS3',
-				proficiency: 5
-			},
-			{
-				name: 'C#',
-				proficiency: 3
-			},
-			{
-				name: 'SQL',
-				proficiency: 3
-			},
-			{
-				name: 'C',
-				proficiency: 2
-			},
-			{
-				name: 'Python',
-				proficiency: 4
-			},
-		];
-
-		this.frameworkSkills = [
-			{
-				name: 'LWC',
-				proficiency: 4
-			},
-			{
-				name: 'Angular 2+',
-				proficiency: 5
-			},
-			{
-				name: '.NET',
-				proficiency: 2,
-			},
-			{
-				name: 'Ionic',
-				proficiency: 4,
-			},
-			{
-				name: 'AWS',
-				proficiency: 3,
-			}
-		];
+		console.log(SkillsJSON);
+		this.languageSkills = SkillsJSON["language-skills"];
+		this.frameworkSkills = SkillsJSON["framework-skills"];
 
 		this.sortSkills();
 	}
