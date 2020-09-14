@@ -2,6 +2,7 @@ import React from 'react';
 import './landing-page.css';
 import LandingPageBackgroundBlur15fps from '../assets/video/LandingPageBackgroundBlur15fps.mp4';
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
+import LandingPageJSON from "./data/landing-page.json";
 
 function setupTypewriter(t) {
 	var HTML = t.innerHTML;
