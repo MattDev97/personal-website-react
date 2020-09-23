@@ -12,6 +12,10 @@ hr {
 	color: var(--text-primary-color);
 }
 
+.job-details h3 {
+	color: var(--text-primary-color);
+}
+
 .job-details h5 {
 	color: var(--accent-color);
 }

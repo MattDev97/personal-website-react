@@ -2,6 +2,7 @@ import React from 'react';
 import './landing-page.css';
 import LandingPageBackgroundBlur15fps from '../assets/video/LandingPageBackgroundBlur15fps.mp4';
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
+import LandingPageJSON from "./data/landing-page.json";
 
 function setupTypewriter(t) {
 	var HTML = t.innerHTML;
@@ -12,7 +13,7 @@ function setupTypewriter(t) {
 		tag = "",
 		writingTag = false,
 		tagOpen = false,
-		typeSpeed = 50,
+		typeSpeed = 25,
 		tempTypeSpeed = 0;
 
 	var type = function () {
@@ -81,6 +82,8 @@ class LandingPage extends React.Component {
 	constructor(props) {
 		super(props);
 		this.handleLoad = this.handleLoad.bind(this);
+
+		this.videoRef = React.createRef();
 	}
 
 	componentDidMount() {
@@ -102,19 +105,26 @@ class LandingPage extends React.Component {
 		], {
 			//timing
 			easing: "cubic-bezier(0.7, -0.8, 0.5, 1.7)",
-			duration: 1000
+			duration: 1000,
+			delay: 600
 		})
 
 		setTimeout(() => {
 			typewriter.type();
 		},
-			800)
+			1500)
 	}
 
 	render() {
 		return (
 			<div id="landing--container">
-				<video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
+				<video
+					ref={this.videoRef}
+					playsInline="playsinline"
+					autoPlay="autoplay"
+					muted="muted"
+					loop="loop"
+				>
 					<source src={LandingPageBackgroundBlur15fps} type="video/mp4" />
 				</video>
 				<div id="header-content" className="col">

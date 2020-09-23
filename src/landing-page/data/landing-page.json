@@ -1,0 +1,14 @@
+{
+	"header": "Hello World",
+	"sub-header": "My Name is Matt",
+	"dynamic-text": {
+		"label": "And I'm a ",
+		"dynamic-text-array": [
+			"Web Developer",
+			"Musician",
+			"Human Being",
+			"Brother",
+			"Caffine Addict"
+		]
+	}
+}

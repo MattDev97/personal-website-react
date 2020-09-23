@@ -1,0 +1,54 @@
+{
+	"language-skills": [
+		{
+			"name": "Javascript",
+			"proficiency": 5
+		},
+		{
+			"name": "HTML",
+			"proficiency": 5
+		},
+		{
+			"name": "CSS3",
+			"proficiency": 5
+		},
+		{
+			"name": "C#",
+			"proficiency": 3
+		},
+		{
+			"name": "SQL",
+			"proficiency": 3
+		},
+		{
+			"name": "C",
+			"proficiency": 2
+		},
+		{
+			"name": "Python",
+			"proficiency": 4
+		}
+	],
+	"framework-skills": [
+		{
+			"name": "LWC",
+			"proficiency": 4
+		},
+		{
+			"name": "Angular 2+",
+			"proficiency": 5
+		},
+		{
+			"name": ".NET",
+			"proficiency": 2
+		},
+		{
+			"name": "Ionic",
+			"proficiency": 4
+		},
+		{
+			"name": "AWS",
+			"proficiency": 3
+		}
+	]
+}
