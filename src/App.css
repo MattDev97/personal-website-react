@@ -1,9 +1,17 @@
 :root {
 	--text-primary-color: #f6f4e6;
 	--text-secondary-color: #fd793c;
+	--text-dark-color: black;
+	--text-secondary-accent: #6D0B00;
 	--accent-color: #fddb3a;
-	--bg-1-color: #161513;
-	--bg-2-color: #49239a;
+	--bg-1-color: #4C4637;
+	--bg-2-color: #ccc1ac;
+
+	/* --text-primary-color: #FAF0BC;
+	--text-secondary-color: #C94748;
+	--accent-color: #FDD177;
+	--bg-1-color: #1B3B45;
+	--bg-2-color: #1B3B45; */
 }
 
 h1 {

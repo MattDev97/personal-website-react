@@ -5,7 +5,7 @@ import SkillsChart from './skills-chart/skills-chart';
 class SkillsPage extends React.Component {
 	render() {
 		return (
-			<div id="skills-page" className="row p-3">
+			<div id="skills-page" className="row">
 				<SkillsChart></SkillsChart>
 			</div>
 		);

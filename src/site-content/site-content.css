@@ -1,9 +1,21 @@
-#site--content {
+#site--content .col .section {
 	background-color: var(--bg-1-color);
+}
+
+#site--content .col .light-section {
+	background-color: var(--bg-2-color);
+}
+
+#site--content .light-section h1 {
+	color: var(--text-secondary-accent);
 }
 
 #site--content h1{
 	font-size: 4rem;
 	text-align: center;
 	font-weight: 300;
+}
+
+#site--content .section {
+	background-color: var(--bg-2-color);
 }
