@@ -24,6 +24,7 @@
     color: var(--text-secondary-color);
     font-family: 'Raleway', sans-serif;
 	border-color: var(--bg-2-color)!important;
+	background-color: var(--bg-transparent-color);
 }
 
 h2 {
@@ -39,7 +40,7 @@ h2 {
 }
 
 .skill-container span:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 .meter-bar {

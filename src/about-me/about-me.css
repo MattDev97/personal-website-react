@@ -6,13 +6,13 @@ hr {
 }
 
 #about-me p {
-	color: var(--text-dark-color);
+	color: var(--text-primary-color);
 }
 
 #about-me #proverb p {
-	text-shadow: 4px 4px 10px var(--bg-1-color);
+	text-shadow: 4px 4px 10px var(--text-secondary-color);
 	font-family: 'Courgette', cursive;
-	color: var(--bg-1-color);
+	color: var(--text-secondary-color);
 }
 
 #about-me .proverb-text {
