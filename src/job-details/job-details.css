@@ -7,6 +7,10 @@
 	.content {
 		margin-top: 0!important;
 	}
+
+	.job--thumbnail img {
+		width: 100%!important;
+	}
 }
 
 hr {
@@ -38,6 +42,6 @@ hr {
 }
 
 .job--thumbnail img {
-	width: 100%;
+	width: 50%;
     border-radius: 25px;
 }

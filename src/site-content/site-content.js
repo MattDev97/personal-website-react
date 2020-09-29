@@ -21,13 +21,15 @@ class SiteContent extends React.Component {
 						<AboutMe></AboutMe>
 					</div>
 					<div className="section my-skills p-5">
-						<h1 className="content-header">My Skills</h1>
+						<h1 className="content-header">Skills</h1>
 						<SkillsPage></SkillsPage>
 					</div>
 					<div className="section p-5">
-						<h1 className="content-header">My Journey</h1>
+						<h1 className="content-header">Experience</h1>
+						<h3 className="text-center">What I learned in boating school is...</h3>
+						<hr></hr>
 						{this.jobDetails.map(job => (
-							<React.Fragment>
+							<React.Fragment key={job.JobThumbnailKey}>
 								<JobDetails jobDetails={job}></JobDetails>
 							</React.Fragment>
 						))}

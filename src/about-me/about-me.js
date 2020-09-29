@@ -1,19 +1,14 @@
 import React from 'react';
 import './about-me.css';
 import PersonalPhoto from '../assets/images/Matthew_Muenzberg.jpg'
-import Proverbs from './data/proverbs.json'
 
 
 class AboutMe extends React.Component {
 
-	initializeDetails() {
-		//this.state.proverb = this.selectRandomProverb();
-	}
-
 	render() {
 		return (
 			<React.Fragment>
-				<div id="about-me" class="row pt-5">
+				<div id="about-me" className="row pt-5">
 					<div className="col-lg-3 text-center align-self-center">
 						<img src={PersonalPhoto}></img>
 					</div>

@@ -30,7 +30,7 @@ class SkillsChart extends React.Component {
 	renderSkillMeter(length) {
 		let meterBar = [];
 		for (let i = 0; i < length; i++) {
-			meterBar.push(<div className="meter-bar my-auto"></div>);
+			meterBar.push(<div key={i} className="meter-bar my-auto"></div>);
 		}
 		return meterBar;
 	}
@@ -45,11 +45,12 @@ class SkillsChart extends React.Component {
 					<div className="skill-container d-flex row pr-5">
 
 						{this.languageSkills.map(skill => (
-							<React.Fragment>
+							<React.Fragment key={skill.name}>
 								<span className="col-6">
 									{skill.name}
 								</span>
-								<div className="col-6 p-0 d-flex
+								<div
+									className="col-6 p-0 d-flex
 												skill-meter 
 												border-left 
 												border-right">
@@ -66,14 +67,14 @@ class SkillsChart extends React.Component {
 					</div>
 					<div className="skill-container d-flex row pr-5">
 						{this.frameworkSkills.map(skill => (
-							<React.Fragment>
+							<React.Fragment key={skill.name}>
 								<span className="col-6">
 									{skill.name}
 								</span>
 								<div className="col-6 p-0 d-flex
 											skill-meter 
 											border-left 
-											border-right">
+											border-right" >
 									{this.renderSkillMeter(skill.proficiency)}
 								</div>
 							</React.Fragment>

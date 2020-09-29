@@ -2,13 +2,41 @@
 	{
 		"JobName": "Acumen Solutions",
 		"JobPosition": "Technical Consultant I",
-		"JobThumbnailKey": "AcumenLogo",
+		"JobThumbnailKey": "acumen-logo-blue-cmyk.jpg",
 		"StartDate": "May 2019",
 		"Sections": [
 			{
 				"Header": "What is Acumen?",
 				"Paragraphs": [
-					"Acumen Solutions is a Top 10 Salesforce partner headquartered in Virgina, USA.  They provide professional consulting services for a wide range of companies for multiple purposes"
+					"Acumen Solutions is a Top 10 Salesforce partner headquartered in Virgina, USA.  They provide professional consulting services for a wide range of companies for multiple purposes",
+					"I am currently a front-end web developer/contractor utilizing modern javascript practices and Lightning Web Components for a Fortune 100 company."
+				]
+			},
+			{
+				"Header": "Position(s)",
+				"Paragraphs": [
+					"Technical Consultant I"
+				]
+			}
+		]
+	},
+	{
+		"JobName": "Xngage",
+		"JobPosition": "Software Developer Internship",
+		"JobThumbnailKey": "xngage-logo-2.png",
+		"StartDate": "June 2017",
+		"EndDate": "August 2017",
+		"Sections": [
+			{
+				"Header": "What is Xngage?",
+				"Paragraphs": [
+					"A B2B eCommerce company based in Middleburg Heights, OH."
+				]
+			},
+			{
+				"Header": "Position(s)",
+				"Paragraphs": [
+					"Software Developer Intern"
 				]
 			}
 		]

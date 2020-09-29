@@ -13,7 +13,7 @@
 			"proficiency": 5
 		},
 		{
-			"name": "C#",
+			"name": "Java",
 			"proficiency": 3
 		},
 		{
@@ -21,8 +21,12 @@
 			"proficiency": 3
 		},
 		{
+			"name": "Typescript",
+			"proficiency": 5
+		},
+		{
 			"name": "C",
-			"proficiency": 2
+			"proficiency": 1
 		},
 		{
 			"name": "Python",
@@ -40,7 +44,7 @@
 		},
 		{
 			"name": ".NET",
-			"proficiency": 2
+			"proficiency": 1
 		},
 		{
 			"name": "Ionic",
@@ -48,7 +52,11 @@
 		},
 		{
 			"name": "AWS",
-			"proficiency": 3
+			"proficiency": 1
+		},
+		{
+			"name": "Salesforce",
+			"proficiency": 4
 		}
 	]
 }

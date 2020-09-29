@@ -2,7 +2,6 @@ import React from 'react';
 import './landing-page.css';
 import LandingPageBackgroundBlur15fps from '../assets/video/LandingPageBackgroundBlur15fps.mp4';
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
-import LandingPageJSON from "./data/landing-page.json";
 
 function setupTypewriter(t) {
 	var HTML = t.innerHTML;
@@ -129,7 +128,7 @@ class LandingPage extends React.Component {
 				</video>
 				<div id="header-content" className="col">
 					<h1>Hello World</h1>
-					<h2 class="mx-0">My name is Matthew Muenzberg</h2>
+					<h2 className="mx-0">My name is Matthew Muenzberg</h2>
 				</div>
 				<div id="social-buttons">
 					<FaLinkedin onClick={goToLinkedInPage} />
