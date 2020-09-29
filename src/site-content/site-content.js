@@ -15,11 +15,11 @@ class SiteContent extends React.Component {
 		return (
 			<div id="site--content" className="row">
 				<div className="col p-0">
-					<div className="light-section p-5 about-me">
+					<div className="section p-5 about-me">
 						<h1 className="content-header">About Me</h1>
 						<AboutMe></AboutMe>
 					</div>
-					<div className="section p-5">
+					<div className="section my-skills p-5">
 						<h1 className="content-header">My Skills</h1>
 						<SkillsPage></SkillsPage>
 					</div>
