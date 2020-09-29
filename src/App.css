@@ -28,6 +28,10 @@ h2, h3, h4, h5 {
 	color: var(--text-secondary-color);
 }
 
+h4, h5 {
+	font-family: 'Work Sans', sans-serif;
+}
+
 p {
 	color: var(--text-primary-color);
 	font-family: 'Raleway', sans-serif;

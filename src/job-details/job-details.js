@@ -21,12 +21,12 @@ class JobDetails extends React.Component {
 			return (
 				<React.Fragment>
 					<div className="job-details row mx-auto pt-5">
-						<div className="job--thumbnail col-md-5">
+						<div className="job--thumbnail col-md-3">
 							<img className="mx-auto" src={AcumenLogo} alt="" />
 						</div>
-						<div className="col-md-7">
-							<h2>{job.JobName}</h2>
-							<h5><em>{job.JobPosition} since {job.StartDate}</em></h5>
+						<div className="content col-md-9">
+							<h2 className="m-0">{job.JobName}</h2>
+							<h5><b>{job.JobPosition}</b> since {job.StartDate}</h5>
 							<hr />
 							{job.Sections.map(section => (
 								<React.Fragment>

@@ -1,11 +1,24 @@
 @media (min-width: 768px) { 
-	.job-details {
-		width: 60%;
+	.job-details h1{
+		width: 80%;
+		margin-top: 10px;
+	}
+
+	.content {
+		margin-top: 0!important;
 	}
 }
 
 hr {
-	border-color: var(--text-secondary-color);
+	border-color: var(--accent-color);
+}
+
+.content {
+	margin-top: 30px;
+}
+
+.job-details h1 {
+	text-align: center;
 }
 
 .job-details h2 {
@@ -17,7 +30,7 @@ hr {
 }
 
 .job-details h5 {
-	color: var(--accent-color);
+	color: var(--text-secondary-color);
 }
 
 .job--thumbnail {
