@@ -39,7 +39,7 @@ class SkillsChart extends React.Component {
 		return (
 			<div id="skills-chart" className="row">
 				<div className="col-lg-6">
-					<div class="row">
+					<div className="row">
 						<h2>Languages</h2>
 					</div>
 					<div className="skill-container d-flex row pr-5">

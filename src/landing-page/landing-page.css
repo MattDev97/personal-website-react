@@ -37,12 +37,11 @@
 #landing--container h1 {
 	font-size: 4rem!important;
 	font-weight: 200;
-	font-family: 'Raleway', sans-serif;
+
 }
 
 #landing--container h2 {
 	color: var(--text-primary-color);
-	font-family: 'Raleway', sans-serif;
 }
 
 #header-content {

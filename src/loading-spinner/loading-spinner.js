@@ -18,6 +18,7 @@ class LoadingSpinner extends React.Component {
 
 		this.leftSideRef = React.createRef();
 		this.rightSideRef = React.createRef();
+		this.spinnerContainerRef = React.createRef();
 	}
 
 	componentDidUpdate() {
@@ -37,13 +38,20 @@ class LoadingSpinner extends React.Component {
 		this.leftSideRef.current.classList.add('l-animate');
 		this.rightSideRef.current.classList.add('r-animate');
 	}
+
+	deleteLoadingSpinner() {
+		let loadingContainer = document.querySelector('#loading--spinner');
+		if (loadingContainer) {
+			loadingContainer.style.display = "none";
+		}
+	}
 	render() {
 		return (
-			<div id="loading--spinner">
-				<div class="side left" ref={this.leftSideRef}>
+			<div id="loading--spinner" ref={this.spinnerContainerRef}>
+				<div className="side left" onAnimationEnd={this.deleteLoadingSpinner} ref={this.leftSideRef}>
 
 				</div>
-				<div class="side right" ref={this.rightSideRef}>
+				<div className="side right" ref={this.rightSideRef}>
 
 				</div>
 				<BarLoader

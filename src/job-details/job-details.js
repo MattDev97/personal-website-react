@@ -39,11 +39,6 @@ class JobDetails extends React.Component {
 									))}
 								</React.Fragment>
 							))}
-							<p>
-								This is my first job out of college <br /><br />
-
-							I have been a part of many diverse projects since my time at Acumen <br /><br />
-							</p>
 						</div>
 					</div>
 				</React.Fragment>

@@ -24,7 +24,7 @@ class SiteContent extends React.Component {
 						<h1 className="content-header">My Skills</h1>
 						<SkillsPage></SkillsPage>
 					</div>
-					<div className="section p-5">
+					<div className="section p-0">
 						<h1 className="content-header">My Journey</h1>
 						{this.jobDetails.map(job => (
 							<React.Fragment>

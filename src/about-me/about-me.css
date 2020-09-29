@@ -9,22 +9,6 @@ hr {
 	color: var(--text-primary-color);
 }
 
-#about-me #proverb p {
-	text-shadow: 4px 4px 10px var(--text-secondary-color);
-	font-family: 'Raleway', sans-serif;
-	color: var(--text-secondary-color);
-}
-
-#about-me .proverb-text {
-	font-size: 2em;
-	max-width: fit-content;
-}
-
-#about-me .proverb-author {
-	font-size: 1.5em;
-	max-width: fit-content;
-}
-
 #about-me  img
 {
 	margin: auto;
