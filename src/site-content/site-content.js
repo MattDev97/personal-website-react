@@ -16,7 +16,8 @@ class SiteContent extends React.Component {
 			<div id="site--content" className="row">
 				<div className="col p-0">
 					<div className="section p-5 about-me">
-						<h1 className="content-header">About Me</h1>
+						<h1 className="content-header">Profile</h1>
+						<hr></hr>
 						<AboutMe></AboutMe>
 					</div>
 					<div className="section my-skills p-5">

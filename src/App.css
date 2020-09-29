@@ -6,6 +6,7 @@
 	--accent-color: #E63946;
 	--bg-1-color: #1D3557;
 	--bg-2-color: #457B9D;
+	--bg-3-color: #14263f;
 
 	--bg-transparent-color: rgba(29, 53, 87, 0.6);
 
@@ -22,5 +23,9 @@ h1 {
 
 p {
 	color: var(--text-primary-color);
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
+}
+
+.background {
+	background-color: var(--bg-3-color);
 }

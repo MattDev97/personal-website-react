@@ -21,9 +21,12 @@ export class App extends React.Component {
       <React.Fragment>
         <LoadingSpinner isLoading={this.state.isLoading}></LoadingSpinner>
         <LandingPage></LandingPage>
-        <div className="container-fluid">
-          <SiteContent></SiteContent>
+        <div className="background">
+          <div className="container">
+            <SiteContent></SiteContent>
+          </div>
         </div>
+
       </React.Fragment >
     );
   }

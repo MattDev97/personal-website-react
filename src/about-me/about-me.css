@@ -11,7 +11,7 @@ hr {
 
 #about-me #proverb p {
 	text-shadow: 4px 4px 10px var(--text-secondary-color);
-	font-family: 'Courgette', cursive;
+	font-family: 'Raleway', sans-serif;
 	color: var(--text-secondary-color);
 }
 
@@ -25,7 +25,7 @@ hr {
 	max-width: fit-content;
 }
 
-#about-me .col-lg-2 img
+#about-me  img
 {
 	margin: auto;
 	max-width: 100%;
