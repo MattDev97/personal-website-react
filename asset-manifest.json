@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/personal-website-react/static/css/main.7083eca7.chunk.css",
-    "main.js": "/personal-website-react/static/js/main.b9b621ec.chunk.js",
-    "main.js.map": "/personal-website-react/static/js/main.b9b621ec.chunk.js.map",
+    "main.css": "/personal-website-react/static/css/main.f658c6e5.chunk.css",
+    "main.js": "/personal-website-react/static/js/main.64638bc6.chunk.js",
+    "main.js.map": "/personal-website-react/static/js/main.64638bc6.chunk.js.map",
     "runtime-main.js": "/personal-website-react/static/js/runtime-main.b56417b6.js",
     "runtime-main.js.map": "/personal-website-react/static/js/runtime-main.b56417b6.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/personal-website-react/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.261a180f.chunk.js": "/personal-website-react/static/js/2.261a180f.chunk.js",
-    "static/js/2.261a180f.chunk.js.map": "/personal-website-react/static/js/2.261a180f.chunk.js.map",
+    "static/js/2.f2509c12.chunk.js": "/personal-website-react/static/js/2.f2509c12.chunk.js",
+    "static/js/2.f2509c12.chunk.js.map": "/personal-website-react/static/js/2.f2509c12.chunk.js.map",
     "index.html": "/personal-website-react/index.html",
-    "precache-manifest.19aaa929fdcb17ffb1e98280e32efe87.js": "/personal-website-react/precache-manifest.19aaa929fdcb17ffb1e98280e32efe87.js",
+    "precache-manifest.478f86ec111162075a7ea6dc461e8d6b.js": "/personal-website-react/precache-manifest.478f86ec111162075a7ea6dc461e8d6b.js",
     "service-worker.js": "/personal-website-react/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/personal-website-react/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.7083eca7.chunk.css.map": "/personal-website-react/static/css/main.7083eca7.chunk.css.map",
-    "static/js/2.261a180f.chunk.js.LICENSE.txt": "/personal-website-react/static/js/2.261a180f.chunk.js.LICENSE.txt",
+    "static/css/main.f658c6e5.chunk.css.map": "/personal-website-react/static/css/main.f658c6e5.chunk.css.map",
+    "static/js/2.f2509c12.chunk.js.LICENSE.txt": "/personal-website-react/static/js/2.f2509c12.chunk.js.LICENSE.txt",
     "static/media/LandingPageBackgroundBlur15fps.mp4": "/personal-website-react/static/media/LandingPageBackgroundBlur15fps.d2d34ec4.mp4",
-    "static/media/acumen-logo-blue-cmyk.jpg": "/personal-website-react/static/media/acumen-logo-blue-cmyk.738d9b4f.jpg"
+    "static/media/Matthew_Muenzberg.jpg": "/personal-website-react/static/media/Matthew_Muenzberg.4db00ab8.jpg",
+    "static/media/acumen-logo-blue-cmyk.jpg": "/personal-website-react/static/media/acumen-logo-blue-cmyk.738d9b4f.jpg",
+    "static/media/site-content.css": "/personal-website-react/static/media/evening-55067.d03f4559.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b56417b6.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.261a180f.chunk.js",
-    "static/css/main.7083eca7.chunk.css",
-    "static/js/main.b9b621ec.chunk.js"
+    "static/js/2.f2509c12.chunk.js",
+    "static/css/main.f658c6e5.chunk.css",
+    "static/js/main.64638bc6.chunk.js"
   ]
 }
