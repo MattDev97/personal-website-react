@@ -1,5 +1,5 @@
 import React from 'react';
-import './job-details.css';
+import './job-details.scss';
 import AcumenLogo from '../assets/images/acumen-logo-blue-cmyk.jpg'
 import XngageLogo from '../assets/images/xngage-logo-2.png'
 

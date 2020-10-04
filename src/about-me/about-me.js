@@ -1,5 +1,5 @@
 import React from 'react';
-import './about-me.css';
+import './about-me.scss';
 import PersonalPhoto from '../assets/images/Matthew_Muenzberg.jpg'
 
 

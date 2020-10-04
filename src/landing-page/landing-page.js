@@ -1,5 +1,5 @@
 import React from 'react';
-import './landing-page.css';
+import './landing-page.scss';
 import LandingPageBackgroundBlur15fps from '../assets/video/LandingPageBackgroundBlur15fps.mp4';
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 

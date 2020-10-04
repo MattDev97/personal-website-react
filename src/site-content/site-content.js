@@ -4,7 +4,7 @@ import SkillsPage from '../skills-page/skills-page'
 import AboutMe from '../about-me/about-me'
 import JobDetailsJSON from '../job-details/data/job-details.json'
 
-import './site-content.css';
+import './site-content.scss';
 
 class SiteContent extends React.Component {
 	constructor(props) {

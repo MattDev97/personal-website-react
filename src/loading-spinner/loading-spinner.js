@@ -1,5 +1,5 @@
 import React from 'react';
-import './loading-spinner.css';
+import './loading-spinner.scss';
 import { css } from "@emotion/core";
 import BarLoader from "react-spinners/BarLoader";
 

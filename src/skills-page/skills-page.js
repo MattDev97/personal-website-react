@@ -1,5 +1,5 @@
 import React from 'react';
-import './skills-page.css';
+import './skills-page.scss';
 import SkillsChart from './skills-chart/skills-chart';
 
 class SkillsPage extends React.Component {

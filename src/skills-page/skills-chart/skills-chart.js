@@ -1,5 +1,5 @@
 import React from 'react';
-import './skills-chart.css';
+import './skills-chart.scss';
 import SkillsJSON from '../data/skills-page.json'
 
 class SkillsChart extends React.Component {

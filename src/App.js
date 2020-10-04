@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import LandingPage from './landing-page/landing-page';
 import SiteContent from './site-content/site-content';
 import LoadingSpinner from './loading-spinner/loading-spinner';
