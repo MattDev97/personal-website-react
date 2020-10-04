@@ -2,9 +2,10 @@ import React from 'react';
 import JobDetails from '../job-details/job-details'
 import SkillsPage from '../skills-page/skills-page'
 import AboutMe from '../about-me/about-me'
-import JobDetailsJSON from '../job-details/data/job-details.json'
+import JobDetailsJSON from '../assets/data/job-details.json'
 
 import './site-content.scss';
+import JobTimeline from '../job-timeline/job-timeline';
 
 class SiteContent extends React.Component {
 	constructor(props) {
@@ -20,6 +21,12 @@ class SiteContent extends React.Component {
 						<hr></hr>
 						<AboutMe></AboutMe>
 					</div>
+					<div className="section p-5">
+						<h1 className="content-header">Over the Years...</h1>
+						<h3 className="text-center">“Wait A Minute, Doc. <br /> Are You Telling Me You Built A Time Machine... <br />Out Of A DeLorean?”</h3>
+						<hr></hr>
+						<JobTimeline></JobTimeline>
+					</div>
 					<div className="section my-skills p-5">
 						<h1 className="content-header">Skills</h1>
 						<SkillsPage></SkillsPage>
@@ -29,11 +36,12 @@ class SiteContent extends React.Component {
 						<h3 className="text-center">What I learned in boating school is...</h3>
 						<hr></hr>
 						{this.jobDetails.map(job => (
-							<React.Fragment key={job.JobThumbnailKey}>
+							<div key={job.JobThumbnailKey}>
 								<JobDetails jobDetails={job}></JobDetails>
-							</React.Fragment>
+							</div>
 						))}
 					</div>
+
 
 
 				</div>

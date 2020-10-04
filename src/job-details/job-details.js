@@ -20,35 +20,34 @@ class JobDetails extends React.Component {
 		}
 	}
 	render() {
-		if (this.props.jobDetails) {
-			let job = this.props.jobDetails
-			return (
-				<React.Fragment>
-					<div className="job-details row mx-auto pt-5">
-						<div className="job--thumbnail col-md-3">
-							<img className="mx-auto" src={this.imgSrc} alt="" />
-						</div>
-						<div className="content col-md-9">
-							<h2 className="m-0">{job.JobName}</h2>
-							<h5><b>{job.JobPosition}</b> since {job.StartDate}</h5>
-							<hr />
-							{job.Sections.map(section => (
-								<React.Fragment key={section.Header}>
-									<h3>{section.Header}</h3>
-
-									{section.Paragraphs.map(paragraph => (
-										<React.Fragment key={paragraph}>
-											<p>{paragraph}</p>
-										</React.Fragment>
-									))}
-								</React.Fragment>
-							))}
-						</div>
+		let job = this.props.jobDetails
+		return (
+			<div className="wrapper">
+				<div className="job-details row mx-auto pt-5">
+					<div className="job--thumbnail col-md-3">
+						<img className="mx-auto" src={this.imgSrc} alt="" />
 					</div>
-				</React.Fragment>
-			);
-		}
-		return null
+					<div className="content col-md-9">
+						<h2 className="m-0">{job.JobName}</h2>
+						<h5><b>{job.JobPosition}</b> since {job.StartDate}</h5>
+						<hr />
+						{job.Sections.map(section => (
+							<div key={section.Header}>
+								<h3>{section.Header}</h3>
+
+								{section.Paragraphs.map(paragraph => (
+									<div key={paragraph}>
+										<p>{paragraph}</p>
+									</div>
+								))}
+							</div>
+						))}
+					</div>
+				</div>
+
+			</div>
+
+		);
 	}
 }
 
