@@ -1,0 +1,34 @@
+[
+	{
+		"Title": "Acumen Solutions",
+		"Subtitle": "Technical Consultant",
+		"StartDate": "May 2019",
+		"Tags": [
+			"Salesforce Apex",
+			"Lightning Web Components",
+			"Javascript",
+			"Angular 2+",
+			"Ionic",
+			"AWS"
+		],
+		"Description": [
+			"Acumen Solutions is a Top 10 Salesforce partner headquartered in Virgina, USA. They provide professional consulting services for a wide range of companies for multiple purposes",
+			"I am currently a front-end web developer/contractor utilizing modern javascript practices and Lightning Web Components for a Fortune 100 company."
+		]
+	},
+	{
+		"Title": "Xngage",
+		"Subtitle": "Software Developer Intern",
+		"StartDate": "June 2018",
+		"End Date": "Sep 2018",
+		"Tags": [
+			"Internship",
+			".NET",
+			"C#",
+			"Insite"
+		],
+		"Description": [
+			"A B2B eCommerce company based in Middleburg Heights, OH."
+		]
+	}
+]
