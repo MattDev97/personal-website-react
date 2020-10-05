@@ -1,3 +1,6 @@
+// Utilities
+@import "../assets/utilities/variables";
+
 $primary-color: #E63946;
 $primary-color-hover: scale-color($primary-color, $lightness: 32%);
 
@@ -12,6 +15,7 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
 //     color: #3D4351;
 //     margin-top: 0;
 // }
+
 a {
     color: $primary-color;
     &:hover {
@@ -75,17 +79,47 @@ a {
         &:last-child {
             padding-bottom: 0;
         }
+
+        .timeline-subtitle {
+            font-weight: 800;
+        }
+
+        .timeline-tag {
+            display: inline-block;
+            min-width: 70px;
+            text-align: center;
+            background-color: $bg-2-color;
+            color: $text-primary-color;
+            font-family: 'Raleway', sans-serif;
+            border-radius: 20px;
+
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
     }
+
+
+    
 
     /*----- TIMELINE INFO -----*/
 
     .timeline-info {
-        font-size: 12px;
+        font-family: 'Work Sans', sans-serif;
+        color: $text-primary-color;
+        font-size: 13px;
         font-weight: 700;
         letter-spacing: 3px;
         margin: 0 0 .5em 0;
         text-transform: uppercase;
         white-space: nowrap;
+
+        span {
+            display: flex;
+        }
+
+        :first-child {
+            opacity: 0.3;
+        }
     }
     /*----- TIMELINE MARKER -----*/
 

@@ -1,11 +1,12 @@
 [
 	{
 		"Title": "Acumen Solutions",
-		"Subtitle": "Technical Consultant",
+		"Subtitle": "Technical Consultant I",
 		"StartDate": "May 2019",
+		"EndDate": "Present",
 		"Tags": [
 			"Salesforce Apex",
-			"Lightning Web Components",
+			"LWC",
 			"Javascript",
 			"Angular 2+",
 			"Ionic",
@@ -17,10 +18,47 @@
 		]
 	},
 	{
+		"Title": "Graduated Baldwin Wallace University",
+		"Subtitle": "Bachelor's Degree in Software Engineering",
+		"StartDate": "August 2015",
+		"EndDate": "August 2019",
+		"Tags": [
+			"Education",
+			"Bachelor's",
+			"Alpha Sigma Phi"
+		],
+		"Description": []
+	},
+	{
+		"Title": "GXC",
+		"Subtitle": "Software Developer Intern",
+		"StartDate": "January 2019",
+		"EndDate": "May 2019",
+		"Tags": [
+			"Internship",
+			"Bootstrap",
+			"JQuery",
+			"Javascript"
+		],
+		"Description": [
+			"Developed web pages for professor course management systems using HTML, Javascript, JQuery, and various other web libraries"
+		]
+	},
+	{
+		"Title": "Baldwin Wallace IT Support Services",
+		"Subtitle": "IT Support Technician",
+		"StartDate": "August 2015",
+		"EndDate": "December 2018",
+		"Tags": [
+			"Student Technician"
+		],
+		"Description": []
+	},
+	{
 		"Title": "Xngage",
 		"Subtitle": "Software Developer Intern",
 		"StartDate": "June 2018",
-		"End Date": "Sep 2018",
+		"EndDate": "September 2018",
 		"Tags": [
 			"Internship",
 			".NET",
