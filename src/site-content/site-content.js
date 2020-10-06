@@ -31,6 +31,7 @@ class SiteContent extends React.Component {
 						<h1 className="content-header">Skills</h1>
 						<SkillsPage></SkillsPage>
 					</div>
+					{/* Commented out for now... 
 					<div className="section p-5">
 						<h1 className="content-header">Experience</h1>
 						<h3 className="text-center">What I learned in boating school is...</h3>
@@ -40,7 +41,7 @@ class SiteContent extends React.Component {
 								<JobDetails jobDetails={job}></JobDetails>
 							</div>
 						))}
-					</div>
+					</div> */}
 
 
 
