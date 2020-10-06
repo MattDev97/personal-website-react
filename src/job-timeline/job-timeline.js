@@ -11,6 +11,7 @@ class JobTimeline extends Component {
 		this.constructTimelineMapByYear();
 	}
 
+	// TODO: Clean up Code
 	constructTimelineMapByYear() {
 		let timeline = TimelineJSON;
 		let map = {};
@@ -28,11 +29,10 @@ class JobTimeline extends Component {
 			else { map[year] = [event]; console.log(year) };
 		})
 		this.timelineMap = map;
-		console.dir(this.timelineMap);
+
 		this.years = Object.keys(map).slice().sort((a, b) => new Date(b) - new Date(a));
 		this.years.forEach(year => {
 			this.timelineMap[year] = this.timelineMap[year].slice().sort((a, b) => new Date(b.EndDate) - new Date(a.EndDate));
-			console.dir(this.timelineMap[year]);
 		})
 	}
 
@@ -58,8 +58,8 @@ class JobTimeline extends Component {
 									{this.timelineMap[year].map(event => (
 										<li className="timeline-item">
 											<div className="timeline-info">
-												<span className="timeline-startdate">From {event.StartDate}</span>
-												<span className="timeline-enddate">To {event.EndDate}</span>
+												<span>From {event.StartDate}</span>
+												<span>To {event.EndDate}</span>
 											</div>
 											<div className="timeline-marker"></div>
 											<div className="timeline-content">

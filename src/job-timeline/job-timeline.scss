@@ -16,6 +16,11 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
 //     margin-top: 0;
 // }
 
+.container-fluid {
+    max-height: 75vh;
+    overflow: auto;
+}
+
 a {
     color: $primary-color;
     &:hover {
@@ -114,7 +119,7 @@ a {
         white-space: nowrap;
 
         span {
-            display: flex;
+            display: block;
         }
 
         :first-child {

@@ -14,7 +14,10 @@ class AboutMe extends React.Component {
 					</div>
 					<div className="col-lg-9 text-center p-2 align-self-center">
 						<p>
-							At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+							Hi!  Thanks for checking out my interactive resume.  As you can see, this website is still VERY much a work in progress.
+						</p>
+						<p>
+							So just in case you somehow randombly stumble upon this beaut:  Salutations
 						</p>
 					</div>
 				</div>

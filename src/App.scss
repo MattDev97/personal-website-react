@@ -12,14 +12,31 @@
 	--bg-3-color: #14263f;
 
 	--bg-transparent-color: rgba(29, 53, 87, 0.6);
-
-	/* --text-primary-color: #FAF0BC;
-	--text-secondary-color: #C94748;
-	--accent-color: #FDD177;
-	--bg-1-color: #1B3B45;
-	--bg-2-color: #1B3B45; */
 	font-family: 'Raleway', sans-serif;
+
+	overflow-y: overlay;
 }
+
+/* Modify Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: none; 
+}
+
+::-webkit-scrollbar-thumb {
+  background:$text-secondary-accent; 
+  border-radius: 90px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #354862;
+}
+
+
 
 h1 {
 	color: var(--accent-color);
