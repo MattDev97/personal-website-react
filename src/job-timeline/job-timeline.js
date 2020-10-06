@@ -24,8 +24,8 @@ class JobTimeline extends Component {
 			} else {
 				year = today.getFullYear().toString();
 			}
-			if (year in map) { map[year] = [...map[year], event]; console.log(year) }
-			else { map[year] = [event]; console.log(year) };
+			if (year in map) map[year] = [...map[year], event];
+			else map[year] = [event];
 		})
 		this.timelineMap = map;
 
@@ -46,8 +46,8 @@ class JobTimeline extends Component {
 					<div className="m-auto col-md-10 col-xs-offset-1 col-sm-offset-2">
 						<ul className="timeline timeline-centered">
 							{this.years.map(year => (
-								<React.Fragment>
-									<li className="timeline-item period" key={year}>
+								<React.Fragment key={year}>
+									<li className="timeline-item period">
 										<div className="timeline-info"></div>
 										<div className="timeline-marker"></div>
 										<div className="timeline-content">
@@ -55,7 +55,7 @@ class JobTimeline extends Component {
 										</div>
 									</li>
 									{this.timelineMap[year].map(event => (
-										<li className="timeline-item">
+										<li className="timeline-item" key={event.Title}>
 											<div className="timeline-info">
 												<span>From {event.StartDate}</span>
 												<span>To {event.EndDate}</span>
@@ -66,13 +66,13 @@ class JobTimeline extends Component {
 												<h5 className="timeline-subtitle">{event.Subtitle}</h5>
 												<div className="timeline-tags my-1">
 													{event.Tags.map(tag => (
-														<div className="timeline-tag m-1 px-3">
+														<div key={tag} className="timeline-tag m-1 px-3">
 															{tag}
 														</div>
 													))}
 												</div>
 												{event.Description.map(paragraph => (
-													<p>{paragraph}</p>
+													<p key={paragraph}>{paragraph}</p>
 												))}
 
 											</div>
