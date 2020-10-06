@@ -19,7 +19,6 @@ class JobTimeline extends Component {
 			let today = new Date();
 			let year = '';
 			if (event.EndDate && event.EndDate !== 'Present') {
-				console.log('End Date' + event.EndDate);
 				let endDate = new Date(event.EndDate);
 				year = endDate.toLocaleDateString().split("/")[2];
 			} else {
