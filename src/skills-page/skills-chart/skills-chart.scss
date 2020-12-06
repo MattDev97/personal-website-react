@@ -23,6 +23,12 @@
 			transform: scale(1.1);
 		}
 	}
+
+	.skill-container {
+		.skill-meter > div {
+			border-right: solid var(--bg-1-color) 2px;
+		}
+	}
 }
 
 h2 {

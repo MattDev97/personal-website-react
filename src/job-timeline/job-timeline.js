@@ -43,7 +43,7 @@ class JobTimeline extends Component {
 		return (
 			<div className="container-fluid pt-3">
 				<div className="row example-centered">
-					<div className="m-auto col-md-10 col-xs-offset-1 col-sm-offset-2">
+					<div className="m-auto col-xs-offset-1 col-sm-offset-2">
 						<ul className="timeline timeline-centered">
 							{this.years.map(year => (
 								<React.Fragment key={year}>
