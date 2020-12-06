@@ -29,6 +29,8 @@ class SiteContent extends React.Component {
 					</div>
 					<div className="section my-skills p-5">
 						<h1 className="content-header">Skills</h1>
+						<h3 className="text-center">"Elementary, my dear Watson."</h3>
+						<hr></hr>
 						<SkillsPage></SkillsPage>
 					</div>
 					{/* Commented out for now... 

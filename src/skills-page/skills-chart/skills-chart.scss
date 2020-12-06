@@ -4,43 +4,30 @@
 	}
 }
 
-
-@media (min-width: 992px) { 
-	#skills-chart  {
-		max-width: 80%!important;
-		font-size: 30px!important;
-	}
-
-	.skill-container {
-		padding-right: 30%;
-	}
-}
-
 #skills-chart {
 	white-space: nowrap;
-	font-size: 6vw;
     height: fit-content;
-    margin: 30px auto;
+    margin: auto;
     color: var(--text-secondary-color);
     font-family: 'Raleway', sans-serif;
 	border-color: var(--bg-2-color)!important;
 	background-color: var(--bg-transparent-color);
+
+	span {
+		-moz-transition: all .1s ease-in;
+		-o-transition: all .1s ease-in;
+		-webkit-transition: all .1s ease-in;
+		transition: all .1s ease-in;
+
+		:hover {
+			transform: scale(1.1);
+		}
+	}
 }
 
 h2 {
 	margin: 15px;
 	color: var(--text-primary-color);;
-}
-
-.skill-container span{
-	-moz-transition: all .1s ease-in;
-    -o-transition: all .1s ease-in;
-    -webkit-transition: all .1s ease-in;
-    transition: all .1s ease-in;
-}
-
-.skill-container span:hover {
-	transform: scale(1.1);
 }
 
 .meter-bar {

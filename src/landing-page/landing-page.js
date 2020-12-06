@@ -1,6 +1,6 @@
 import React from 'react';
 import './landing-page.scss';
-import LandingPageBackgroundBlur15fps from '../assets/video/LandingPageBackgroundBlur15fps.mp4';
+import LandingPageMountains from '../assets/images/LandingPageMountains.jpg';
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function setupTypewriter(t) {
@@ -81,8 +81,6 @@ class LandingPage extends React.Component {
 	constructor(props) {
 		super(props);
 		this.handleLoad = this.handleLoad.bind(this);
-
-		this.videoRef = React.createRef();
 	}
 
 	componentDidMount() {
@@ -117,22 +115,18 @@ class LandingPage extends React.Component {
 	render() {
 		return (
 			<div id="landing--container">
-				<video
-					ref={this.videoRef}
-					playsInline="playsinline"
-					autoPlay="autoplay"
-					muted="muted"
-					loop="loop"
-				>
-					<source src={LandingPageBackgroundBlur15fps} type="video/mp4" />
-				</video>
+				<img src={LandingPageMountains} alt="Landing Page Background"></img>
 				<div id="header-content" className="col">
 					<h1>Hello World</h1>
 					<h2 className="mx-0">My name is Matthew Muenzberg</h2>
 				</div>
 				<div id="social-buttons">
-					<FaLinkedin onClick={goToLinkedInPage} />
-					<FaInstagram onClick={goToInstagram} />
+					<div onClick={goToLinkedInPage} >
+						<FaLinkedin />
+					</div>
+					<div onClick={goToInstagram} >
+						<FaInstagram />
+					</div>
 				</div>
 			</div>
 		);
