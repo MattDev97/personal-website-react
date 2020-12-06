@@ -1,29 +1,32 @@
 // Utilities
 @import "../assets/utilities/variables";
+#site--content {
+	.section {
+		background-color: var(--bg-2-color);
+		background-size: cover;
 
-#site--content .col .section {
-	background-color: var(--bg-1-color);
-}
+		h3 {
+			font-size: 1.5;
+		}
+	}
 
-#site--content .col .light-section {
-	background-color: var(--bg-2-color);
-}
+	h1 {
+		font-size: 4rem;
+		text-align: center;
+		font-weight: 300;
+	}
 
-#site--content .light-section h1 {
-	color: var(--accent-color);
-}
+	.col {
+		.section {
+			background-color: var(--bg-1-color);
+		}
 
-#site--content h1{
-	font-size: 4rem;
-	text-align: center;
-	font-weight: 300;
-}
+		.light-section {
+			background-color: var(--bg-2-color);
 
-#site--content .section {
-	background-color: var(--bg-2-color);
-	background-size: cover;
-}
-
-#site--content .section h3 {
-	font-size: 1.5;
+			h1 {
+				color: var(--accent-color);
+			}
+		}
+	}
 }
