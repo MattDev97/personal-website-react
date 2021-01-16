@@ -11,6 +11,20 @@
             object-fit: cover;
             object-position: 40% -6px;
         }
+
+        .text-box {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background-color: black;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .about-me-item {
+            position: relative;
+        }
     }
 }
 
@@ -23,19 +37,7 @@
         
     }
 
-    .text-box {
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
-        background-color: black;
-        color: white;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .about-me-item {
-        position: relative;
-    }
+    
     :nth-child( odd ) {
 
     }
