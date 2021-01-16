@@ -22,7 +22,7 @@ class SiteContent extends React.Component {
 						<AboutMe></AboutMe>
 					</div>
 					<div className="section p-5">
-						<h1 className="content-header">Over the Years...</h1>
+						<h1 className="content-header">Experience</h1>
 						<h3 className="text-center">“Wait A Minute, Doc. <br /> Are You Telling Me You Built A Time Machine... <br />Out Of A DeLorean?”</h3>
 						<hr></hr>
 						<JobTimeline></JobTimeline>

@@ -1,30 +1,80 @@
-import React from 'react';
-import './about-me.scss';
-import PersonalPhoto from '../assets/images/Matthew_Muenzberg.jpg'
-
+import React from "react";
+import "./about-me.scss";
+import PersonalPhoto from "../assets/images/Matthew_Muenzberg.jpg";
+import ClevelandPhoto from "../assets/images/cleveland-photo.jpg";
+import AboutMeContentJSON from "../assets/data/about-me-content.json";
 
 class AboutMe extends React.Component {
+  constructor(props) {
+    super(props);
+    this.constructPhotoMap();
+    this.constructContentMap();
+  }
 
-	render() {
-		return (
-			<React.Fragment>
-				<div id="about-me" className="row pt-5">
-					<div className="col-lg-3 text-center align-self-center">
-						<img src={PersonalPhoto}></img>
-					</div>
-					<div className="col-lg-9 text-center p-2 align-self-center">
-						<p>
-							Hi!  Thanks for checking out my interactive resume.  As you can see, this website is still VERY much a work in progress.
-						</p>
-						<p>
-							So just in case you somehow randombly stumble upon this beaut:  Salutations
-						</p>
-					</div>
-				</div>
-			</React.Fragment>
-		);
-	}
+  constructContentMap() {
+    this.contentMap = new Map();
+    AboutMeContentJSON.forEach((contentObj) => {
+      this.contentMap.set(contentObj.sectionName, contentObj);
+    });
+  }
 
+  constructPhotoMap() {
+    this.photoMap = new Map();
+    this.photoMap.set("PersonalPhoto", PersonalPhoto);
+    this.photoMap.set("ClevelandPhoto", ClevelandPhoto);
+  }
+
+  getAboutMeSectionFormatting(section) {
+    switch(section.pictureSide) {
+      case 'left':
+        return <React.Fragment>
+          <div className="col-lg-3 text-center align-self-center">
+            <img src={this.photoMap.get(section.pictureKey)}></img>
+          </div>
+          <div className="col-lg-9 text-center p-2 align-self-center">
+            {section.paragraphs.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+          </div>
+        </React.Fragment>;
+      case 'center':
+        return <React.Fragment>
+          <div className="col-lg-3 text-center align-self-center">
+            <img src={this.photoMap.get(section.pictureKey)}></img>
+          </div>
+          <div className="col-lg-9 text-center p-2 align-self-center">
+            {section.paragraphs.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+          </div>
+        </React.Fragment>;
+      case 'right':
+        return <React.Fragment>
+          <div className="col-lg-3 text-center align-self-center">
+            <img src={this.photoMap.get(section.pictureKey)}></img>
+          </div>
+          <div className="col-lg-9 text-center p-2 align-self-center">
+            {section.paragraphs.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+          </div>
+        </React.Fragment>;
+      default:
+        return <div></div>;
+    }
+  }
+
+  render() {
+    return (
+      <div id="about-me">
+        {Array.from(this.contentMap.values()).map((section) => (
+          <div className="row pt-5" key={section.sectionName}>
+            {this.getAboutMeSectionFormatting(section)}
+          </div>
+        ))}
+      </div>
+    );
+  }
 }
 
 export default AboutMe;

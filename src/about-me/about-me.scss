@@ -1,14 +1,24 @@
 @media (min-width: 768px) { 
 }
 
-#about-me  img
-{
-	margin: auto;
-	max-width: 100%;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: 40% -6px;
+#about-me {
+    :first-child {
+        img
+        {
+            margin: auto;
+            max-width: 100%;
+            border-radius: 50%;
+            overflow: hidden;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            object-position: 40% -6px;
+        }
+    }
+    :nth-child( odd ) {
+
+    }
+    :nth-child( even ) {
+
+    }
 }
