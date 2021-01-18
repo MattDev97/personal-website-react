@@ -5,10 +5,10 @@
 	--text-primary-color: #F1FAEE;
 	--text-secondary-color: #A8DADC;
 	--text-dark-color: #1D3557;
-	--text-secondary-accent: #6D0B00;
-	--accent-color: #E63946;
-	--bg-1-color: #1D3557;
-	--bg-2-color: #457B9D;
+	--text-secondary-accent: #e6f51a;
+	--accent-color: #EDF67D;
+	--bg-1-color: #03256C;
+	--bg-2-color: #304C89;
 	--bg-3-color: #14263f;
 
 	--bg-transparent-color: rgba(29, 53, 87, 0.6);
@@ -56,5 +56,5 @@ p {
 }
 
 .background {
-	background-color: var(--bg-3-color);
+	background-color: var(--bg-1-color);
 }

@@ -115,7 +115,7 @@ class LandingPage extends React.Component {
 	render() {
 		return (
 			<div id="landing--container">
-				<img src={LandingPageMountains} alt="Landing Page Background"></img>
+				{/* <img src={LandingPageMountains} alt="Landing Page Background"></img> */}
 				<div id="header-content" className="col">
 					<h1>Hello World</h1>
 					<h2 className="mx-0">I'm Matt, and I'm a Web Developer</h2>
