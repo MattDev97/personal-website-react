@@ -17,13 +17,13 @@ class SiteContent extends React.Component {
 			<div id="site--content" className="row">
 				<div className="col p-0">
 					<div className="section p-5 about-me">
-						<h1 className="content-header">Profile</h1>
+						<h1 className="content-header">About Me</h1>
 						<hr></hr>
 						<AboutMe></AboutMe>
 					</div>
 					<div className="section p-5">
 						<h1 className="content-header">Experience</h1>
-						<h3 className="text-center">“Wait A Minute, Doc. <br /> Are You Telling Me You Built A Time Machine... <br />Out Of A DeLorean?”</h3>
+						<h3 >“Wait a minute, Doc, are you telling me you built A time machine out of a DeLorean?”</h3>
 						<hr></hr>
 						<JobTimeline></JobTimeline>
 					</div>

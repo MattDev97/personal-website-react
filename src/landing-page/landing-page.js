@@ -1,6 +1,7 @@
 import React from 'react';
 import './landing-page.scss';
 import LandingPageMountains from '../assets/images/LandingPageMountains.jpg';
+import FlatFace from '../assets/svgs/FlatFaceDesignFinal.svg';
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function setupTypewriter(t) {
@@ -115,11 +116,12 @@ class LandingPage extends React.Component {
 	render() {
 		return (
 			<div id="landing--container">
-				<img src={LandingPageMountains} alt="Landing Page Background"></img>
 				<div id="header-content" className="col">
-					<h1>Hello World</h1>
-					<h2 className="mx-0">I'm Matt, and I'm a Web Developer</h2>
+					<h1>Hey There!</h1>
+					<h2 className="mx-0">I'm Matt, welcome to my website!</h2>
 				</div>
+				<img src={FlatFace} alt="My Face" />
+
 				<div id="social-buttons">
 					<div onClick={goToLinkedInPage} >
 						<FaLinkedin />
