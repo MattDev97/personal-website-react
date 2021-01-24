@@ -4,6 +4,8 @@ import LandingPage from './landing-page/landing-page';
 import SiteContent from './site-content/site-content';
 import LoadingSpinner from './loading-spinner/loading-spinner';
 
+import LandingPageBackground from './landing-page/landing-page-background/landing-page-background';
+
 export class App extends React.Component {
 
 
@@ -20,11 +22,12 @@ export class App extends React.Component {
     return (
       <React.Fragment>
         {/* <LoadingSpinner isLoading={this.state.isLoading}></LoadingSpinner> */}
-        <LandingPage></LandingPage>
         <div className="background">
-          <div className="container">
-            <SiteContent></SiteContent>
-          </div>
+          <LandingPageBackground></LandingPageBackground>
+        </div>
+        <LandingPage></LandingPage>
+        <div className="container">
+          <SiteContent></SiteContent>
         </div>
 
       </React.Fragment >

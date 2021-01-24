@@ -10,8 +10,6 @@
     margin: auto;
     color: var(--text-secondary-color);
     font-family: 'Raleway', sans-serif;
-	border-color: var(--bg-2-color)!important;
-	background-color: var(--bg-transparent-color);
 
 	span {
 		-moz-transition: all .1s ease-in;
@@ -21,12 +19,6 @@
 
 		:hover {
 			transform: scale(1.1);
-		}
-	}
-
-	.skill-container {
-		.skill-meter > div {
-			border-right: solid var(--bg-1-color) 2px;
 		}
 	}
 }
@@ -42,6 +34,3 @@ h2 {
 	background-color: var(--accent-color);
 }
 
-.border-left, .border-right {
-	border-color: var(--text-secondary-color)!important;
-}

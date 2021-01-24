@@ -56,6 +56,10 @@ p {
 }
 
 .background {
-	background-color: var(--bg-3-color);
-	z-index:1;
+	background-image: url('./assets/svgs/SVG/LighterBackground.svg');
+	background-size: cover;
+
+	position:fixed;
+	width:100vw;
+	height:100vh;
 }

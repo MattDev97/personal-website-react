@@ -2,7 +2,6 @@
 @import "../assets/utilities/variables";
 #site--content {
 	.section {
-		background-color: var(--bg-2-color);
 		background-size: cover;
 
 		h3 {
@@ -17,13 +16,8 @@
 		font-family: 'Bebas Neue', cursive;
 	}
 
-	.col {
-		.section {
-			background-color: var(--bg-1-color);
-		}
-
+	.col {''
 		.light-section {
-			background-color: var(--bg-2-color);
 
 			h1 {
 				color: var(--accent-color);

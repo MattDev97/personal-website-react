@@ -5,7 +5,6 @@ import FlatFace from '../assets/svgs/FlatFaceDesignFinal.svg';
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { useSpring, animated, interpolate } from 'react-spring';
 import { Spring } from "react-spring/renderprops";
-import LandingPageBackground from './landing-page-background/landing-page-background';
 
 function goToLinkedInPage(e) {
 	window.open('https://www.linkedin.com/in/matthew-muenzberg-225311162/', '_blank');
@@ -20,7 +19,7 @@ class LandingPage extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<LandingPageBackground></LandingPageBackground>
+
 				<div id="landing--container">
 
 					<div id="header-content" className="col">

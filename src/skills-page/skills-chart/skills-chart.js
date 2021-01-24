@@ -72,9 +72,7 @@ class SkillsChart extends React.Component {
 									{skill.name}
 								</span>
 								<div className="col-6 d-flex
-											skill-meter 
-											border-left 
-											border-right" >
+											skill-meter" >
 									{this.renderSkillMeter(skill.proficiency)}
 								</div>
 							</React.Fragment>
