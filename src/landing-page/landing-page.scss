@@ -3,7 +3,7 @@
 
 @media (min-width: 1200px) {
 	#landing--container {
-		img {
+		.flat-face {
 			left: 55%!important;
 			top: 5%!important;
 			max-width: 26%!important;
@@ -22,7 +22,7 @@
 
 @media (min-width: 576px) {
 	#landing--container {
-		img {
+		.flat-face {
 			// max-width: 40%!important;
 			// left: 50%!important;
 		}
@@ -40,12 +40,14 @@
 }
 
 #landing--container {
+	z-index:-1;
 	display: flex;
 	height: 100vh;
 
-	background-color: var(--bg-1-color);
+	//background-color: var(--bg-1-color);
+	background-image: url('../assets/svgs/SVG/Background.svg');
 
-	img {
+	.flat-face {
 		position: absolute;
 		max-width: 60%;
 		max-height: 85vh;
