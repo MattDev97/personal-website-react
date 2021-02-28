@@ -117,8 +117,8 @@ class LandingPage extends React.Component {
 		return (
 			<div id="landing--container">
 				<div id="header-content" className="col">
-					<h1>Hey There!</h1>
-					<h2 className="mx-0">I'm Matt, welcome to my website!</h2>
+					<h1>I'm Matt</h1>
+					<h2 className="mx-0">a web developer</h2>
 				</div>
 				<img src={FlatFace} alt="My Face" />
 

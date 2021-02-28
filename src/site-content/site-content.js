@@ -16,18 +16,16 @@ class SiteContent extends React.Component {
 		return (
 			<div id="site--content" className="row">
 				<div className="col p-0">
-					<div className="section p-5 about-me">
-						<h1 className="content-header">About Me</h1>
-						<hr></hr>
+					<div className="row section p-5 about-me">
 						<AboutMe></AboutMe>
 					</div>
-					<div className="section p-5">
+					<div className="row section p-5">
 						<h1 className="content-header">Experience</h1>
 						<h3 >“Wait a minute, Doc, are you telling me you built A time machine out of a DeLorean?”</h3>
 						<hr></hr>
 						<JobTimeline></JobTimeline>
 					</div>
-					<div className="section my-skills p-5">
+					<div className="row section my-skills p-5">
 						<h1 className="content-header">Skills</h1>
 						<h3 className="text-center">"Elementary, my dear Watson."</h3>
 						<hr></hr>

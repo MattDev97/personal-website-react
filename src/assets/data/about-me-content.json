@@ -2,28 +2,11 @@
     {
         "sectionName": "Intro",
         "pictureKey": "PersonalPhoto",
-        "pictureSide": "left",
-        "paragraphs": [
-            "Hey there!  Weclome to my website!",
-            "My name is Matthew Muenzberg, and I am a software developer who graduadted from Baldwin Wallace University in August of 2019.",
-            "This is an accumulation of work that I've done over the years, not only as a software developer, but also as a creator.  I love crafting beautiful user experiences and am constantly expanding my expertise in various interests."
-        ]
-    },
-    {
-        "sectionName": "Location",
-        "pictureKey": "ClevelandPhoto",
         "pictureSide": "center",
         "paragraphs": [
-            "I currently operate out of Cleveland, OH, living with a few roommates and my tuxedo cat Biscuit."
-        ]
-    },
-    {
-        "sectionName": "Closing",
-        "pictureKey": "BiscuitPhoto",
-        "pictureSide": "bottom",
-        "paragraphs": [
-            "Have a peek into my world!",
-            "Below you can view an interactive timeline of my experience as a professional software developer."
+            "Hey there!",
+            "My name is Matthew Muenzberg, and I am a software developer who graduadted from Baldwin Wallace University in August of 2019.",
+            "This is an accumulation of work that I've done over the years, not only as a software developer, but also as a creator.  I love crafting beautiful user experiences and am constantly expanding my expertise in various interests."
         ]
     }
 ]

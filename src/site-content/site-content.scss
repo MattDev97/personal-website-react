@@ -17,17 +17,16 @@
 		font-family: 'Bebas Neue', cursive;
 	}
 
-	.col {
-		.section {
-			background-color: var(--bg-1-color);
-		}
+	.section {
+		// background-color: var(--bg-1-color);
+		background-color: white;
+	}
 
-		.light-section {
-			background-color: var(--bg-2-color);
+	.light-section {
+		background-color: var(--bg-2-color);
 
-			h1 {
-				color: var(--accent-color);
-			}
+		h1 {
+			color: var(--accent-color);
 		}
 	}
 }

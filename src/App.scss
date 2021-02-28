@@ -3,7 +3,7 @@
 
 :root {
 	--text-primary-color: #F1FAEE;
-	--text-secondary-color: #A8DADC;
+	--text-secondary-color: black;
 	--text-dark-color: #1D3557;
 	--text-secondary-accent: #6D0B00;
 	--accent-color: #E63946;
@@ -51,10 +51,12 @@ h4, h5 {
 }
 
 p {
-	color: var(--text-primary-color);
+	// color: var(--text-primary-color);
+	color: var(--text-secondary-color);
 	font-family: 'Montserrat';
 }
 
 .background {
-	background-color: var(--bg-3-color);
+	// background-color: var(--bg-3-color);
+	background-color: white;
 }

@@ -33,7 +33,7 @@ class AboutMe extends React.Component {
           <div className="col-lg-3 text-center align-self-center">
             <img className="round-pic" src={this.photoMap.get(section.pictureKey)}></img>
           </div>
-          <div className="col-lg-9 text-center p-2 align-self-center">
+          <div className="col-lg-9 text-center p-2 align-self-center about-me-item_text">
             {section.paragraphs.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
             ))}
@@ -41,19 +41,18 @@ class AboutMe extends React.Component {
         </React.Fragment>;
       case 'center':
         return <React.Fragment>
-          <div className="col p-2 align-self-center">
-            <img src={this.photoMap.get(section.pictureKey)}></img>
-            <div className="text-box text-center">
-              {section.paragraphs.map((paragraph) => (
-                <p className="my-3" key={paragraph}>{paragraph}</p>
-              ))}
-            </div>
-
+          <div className="text-center align-self-center  m-auto">
+            <img className="round-pic" src={this.photoMap.get(section.pictureKey)}></img>
+          </div>
+          <div className="text-center p-2 align-self-center about-me-item_text">
+            {section.paragraphs.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
           </div>
         </React.Fragment>;
       case 'bottom':
         return <React.Fragment>
-          <div className="col-lg-9 text-center p-2 align-self-center">
+          <div className="col-lg-9 text-center p-2 align-self-center about-me-item_text">
             {section.paragraphs.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
             ))}
@@ -69,7 +68,7 @@ class AboutMe extends React.Component {
 
   render() {
     return (
-      <div id="about-me">
+      <div id="about-me" class="col-md-6 m-auto">
         {Array.from(this.contentMap.values()).map((section) => (
           <div className="row pt-5 about-me-item" key={section.sectionName}>
             {this.getAboutMeSectionFormatting(section)}

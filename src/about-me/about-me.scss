@@ -37,6 +37,16 @@
         
     }
 
+    .about-me-item {
+
+        .about-me-item_text {
+            :first-child {
+                font-weight: bold;
+                font-size: 2rem;
+            }
+        }
+        
+    }
     
     :nth-child( odd ) {
 
