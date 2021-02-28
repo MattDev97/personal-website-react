@@ -22,15 +22,18 @@ class LandingPage extends React.Component {
 
 				<div id="landing--container">
 
-					<div id="header-content" className="col">
+					{/* <div id="header-content" className="col">
 						<h1>Hey There!</h1>
 						<h2 className="mx-0">I'm Matt, welcome to my website!</h2>
-					</div>
-					{/* <Spring delay={300} from={{ opacity: 0 }} to={{ opacity: 1 }}>
-					{({ opacity }) => (
-						<h1 style={{ opacity }}>TESTING</h1>
-					)}
-				</Spring> */}
+					</div> */}
+					<Spring delay={300} from={{ opacity: 0 }} to={{ opacity: 1 }}>
+						{({ opacity }) => (
+							<div id="header-content" className="col" style={{ opacity }}>
+								<h1>Hey There!</h1>
+								<h2 className="mx-0">I'm Matt, welcome to my website!</h2>
+							</div>
+						)}
+					</Spring>
 
 					<img class="flat-face" src={FlatFace} alt="My Face" />
 

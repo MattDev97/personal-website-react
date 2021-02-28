@@ -22,9 +22,9 @@ export class App extends React.Component {
     return (
       <React.Fragment>
         {/* <LoadingSpinner isLoading={this.state.isLoading}></LoadingSpinner> */}
-        <div className="background">
+        {/* <div className="background">
           <LandingPageBackground></LandingPageBackground>
-        </div>
+        </div> */}
         <LandingPage></LandingPage>
         <div className="container">
           <SiteContent></SiteContent>
