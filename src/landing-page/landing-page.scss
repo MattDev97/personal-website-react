@@ -4,9 +4,9 @@
 @media (min-width: 1200px) {
 	#landing--container {
 		.flat-face {
-			left: 55%!important;
-			top: 5%!important;
-			max-width: 26%!important;
+			left: 60% !important;
+			top: 20% !important;
+			max-width: 20% !important;
 			z-index: 0;
 		}
 	}
@@ -46,6 +46,7 @@
 
 	//background-color: var(--bg-1-color);
 	background-image: url('../assets/svgs/SVG/DarkBlueBackground.svg');
+	background-size: cover;
 
 	.flat-face {
 		position: absolute;
